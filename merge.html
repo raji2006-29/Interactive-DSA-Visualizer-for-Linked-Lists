@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Merge Two Sorted Linked Lists</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body >
+
+<h1> Merge Two Sorted Linked Lists</h1>
+
+<input id="l1" placeholder="List 1 (e.g. 1,3,5)">
+<input id="l2" placeholder="List 2 (e.g. 2,4,6)">
+<br>
+
+<button id="createBtn" onclick="init()">Create Lists</button>
+<button id="nextBtn" onclick="nextStep()">Next Step</button>
+
+
+<div class="desc" id="desc">
+   Enter two sorted lists and click Create Lists
+</div>
+
+<div class="container">
+  <div>
+    <h3>List 1</h3>
+    <div class="list" id="list1"></div>
+  </div>
+
+  <div>
+    <h3>List 2</h3>
+    <div class="list" id="list2"></div>
+  </div>
+</div>
+
+<hr>
+
+<h3>Merged List</h3>
+<div class="list" id="merged"></div>
+
+<script src="js/merge.js"></script>
+</body>
+</html>
